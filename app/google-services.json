@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "944390626443",
+    "project_id": "childtrackersemi",
+    "storage_bucket": "childtrackersemi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944390626443:android:25e4aa0ae4a9f165cac88e",
+        "android_client_info": {
+          "package_name": "com.example.childtrackersemi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944390626443-vd1saotqn85ra3u6und5fhnrr6abq9v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.childtrackersemi",
+            "certificate_hash": "22b81354af6885fe57dcfabd8a54af721e091194"
+          }
+        },
+        {
+          "client_id": "944390626443-h4qcju42490b55jromjelqb0l32u60n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzHuLaWz08FBpSFyfCunwj1oehFFXIMxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944390626443-h4qcju42490b55jromjelqb0l32u60n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

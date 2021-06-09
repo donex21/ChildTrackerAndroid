@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginParentActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#74c4e5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parent Sign up"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:id="@+id/et_parent_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/et_parent_pwd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/et_parent_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Complete Name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_parent_signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#fff"
+        android:background="#4281e5"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/btn_parent_login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#fff"
+        android:background="#4281e5"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="gobackParentLogin"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

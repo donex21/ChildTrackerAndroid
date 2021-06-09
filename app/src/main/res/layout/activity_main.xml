@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#74c4e5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child Tracker"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/btn_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am Parent"
+        android:textColor="#fff"
+        android:background="#4281e5"
+        android:textSize="24dp"
+        android:layout_marginTop="30dp"
+        android:onClick="iamparent"/>
+    <Button
+        android:id="@+id/btn_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am Child"
+        android:textColor="#fff"
+        android:background="#4281e5"
+        android:textSize="24dp"
+        android:layout_marginTop="30dp"
+        android:onClick="iamchild"/>
+
+</LinearLayout>
